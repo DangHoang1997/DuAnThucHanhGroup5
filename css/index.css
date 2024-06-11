@@ -18,6 +18,7 @@ body {
 
 /* DARK LIGHT THEME */
 :root {
+    
     --primary-color: rgb(220, 79, 114);
     --text-color: #536390;
     --title-color: #030303;
