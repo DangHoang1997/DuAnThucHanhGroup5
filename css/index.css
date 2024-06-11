@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    font-size: 62.5%;
+    font-family: "Nunito Sans", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    /* Sử dụng biến màu chữ */
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* DARK LIGHT THEME */
+:root {
+    --primary-color: rgb(220, 79, 114);
+    --text-color: #536390;
+    --title-color: #030303;
+    /* Màu chữ mặc định */
+    --bg-color: #ffffff;
+    --heading-color: #292922;
+    --border-color: #000000;
+}
+
+[data-theme="dark"] {
+    --primary-color: rgb(220, 79, 114);
+    --text-color: rgb(183, 183, 183);
+    --font-color: rgb(227, 227, 227);
+    /* Màu chữ trong chế độ dark */
+    --bg-color: #161625;
+    --heading-color: #e1e1ff;
+    /* Màu tiêu đề trong chế độ dark */
+}
